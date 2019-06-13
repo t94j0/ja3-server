@@ -1,6 +1,10 @@
 ja3-server
 ============
 
+## T94j0's Fork
+
+I forked this project just to make sure any upstream updates to the project do not break my code.
+
 A proof of concept of fingerprinting TLS clients with JA3 (part of an article [here](https://capacitorset.github.io/ja3/)).
 
 Creates an HTTPS server which responds with the JA3 fingerprint of the client, and stores it into Redis for analytics purposes.

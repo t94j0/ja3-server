@@ -10,7 +10,7 @@
 package http
 
 import (
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/t94j0/ja3-server/crypto/tls"
 	"encoding/base64"
 	"errors"
 	"fmt"

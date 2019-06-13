@@ -9,9 +9,9 @@ package http
 import (
 	"bufio"
 	"bytes"
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
 	"errors"
 	"fmt"
+	"github.com/t94j0/ja3-server/crypto/tls"
 	"io"
 	"net/textproto"
 	"net/url"

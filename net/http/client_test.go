@@ -9,10 +9,10 @@ package http_test
 import (
 	"bytes"
 	"context"
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
 	"encoding/base64"
 	"errors"
 	"fmt"
+	"github.com/t94j0/ja3-server/crypto/tls"
 	"io"
 	"io/ioutil"
 	"log"

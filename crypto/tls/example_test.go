@@ -5,8 +5,8 @@
 package tls_test
 
 import (
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
 	"crypto/x509"
+	"github.com/t94j0/ja3-server/crypto/tls"
 	"log"
 	"net/http"
 	"net/http/httptest"
