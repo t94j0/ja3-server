@@ -9,9 +9,10 @@ import (
 	"errors"
 	"io"
 	"net"
-	"net/http"
 	"net/textproto"
 	"sync"
+
+	"github.com/t94j0/ja3-server/net/http"
 )
 
 var (

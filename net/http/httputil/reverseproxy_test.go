@@ -14,8 +14,6 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"net/http"
-	"net/http/httptest"
 	"net/url"
 	"os"
 	"reflect"
@@ -24,6 +22,9 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/t94j0/ja3-server/net/http"
+	"github.com/t94j0/ja3-server/net/http/httptest"
 )
 
 const fakeHopHeader = "X-Fake-Hop-Header-For-Test"

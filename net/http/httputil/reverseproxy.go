@@ -11,11 +11,12 @@ import (
 	"io"
 	"log"
 	"net"
-	"net/http"
 	"net/url"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/t94j0/ja3-server/net/http"
 )
 
 // onExitFlushLoop is a callback set by tests to detect the state of the

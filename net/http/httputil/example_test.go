@@ -8,11 +8,12 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"net/http"
-	"net/http/httptest"
-	"net/http/httputil"
 	"net/url"
 	"strings"
+
+	"github.com/t94j0/ja3-server/net/http"
+	"github.com/t94j0/ja3-server/net/http/httptest"
+	"github.com/t94j0/ja3-server/net/http/httputil"
 )
 
 func ExampleDumpRequest() {

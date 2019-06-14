@@ -12,10 +12,11 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/t94j0/ja3-server/net/http"
 )
 
 // drainBody reads all of b to memory and then returns two equivalent
